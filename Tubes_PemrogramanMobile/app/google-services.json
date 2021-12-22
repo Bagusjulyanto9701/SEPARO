@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102626065488",
+    "project_id": "separo-f9c4d",
+    "storage_bucket": "separo-f9c4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102626065488:android:6ff83aecd45b2d30b7a555",
+        "android_client_info": {
+          "package_name": "com.example.tubes_pemrogramanmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102626065488-5rdpg2amkln6du3sokionit2ouvrr74a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKg9i1QLfJvXZcxUuPJACfIKlKZI5B9dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102626065488-5rdpg2amkln6du3sokionit2ouvrr74a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
