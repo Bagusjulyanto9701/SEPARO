@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/frameregister"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".Home"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Akun"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck"></TextView>
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/discjockey"
+        android:layout_margin="20dp"
+        ></ImageView>
+
+
+    <GridLayout
+        android:id="@+id/minigrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:layout_margin="30dp"
+        android:padding="0dp"
+        android:rowCount="1">
+
+
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="TouchTargetSizeCheck"
+            android:hint="  Nama lengkap"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="TouchTargetSizeCheck"
+            android:hint="  Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"></EditText>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="TouchTargetSizeCheck"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"></EditText>
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="TouchTargetSizeCheck"
+            android:hint="  Konfirmasi Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"></EditText>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Daftar"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck"
+            android:text="Sudah punya akun?"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tologin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck"
+            android:text="menuju halaman Login"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            ></TextView>
+
+
+
+    </GridLayout>
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="25dp"-->
+<!--        >-->
+
+
+<!--    </RelativeLayout>-->
+
+
+
+
+
+
+</LinearLayout>
